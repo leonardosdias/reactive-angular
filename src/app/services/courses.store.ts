@@ -60,7 +60,6 @@ export class CoursesStore {
             .pipe(
                 catchError(err => {
                     const message = 'Erro ao salvar o curso, tente novamente.';
-                    console.log(message, err);
                     this.messages.showErrors(message);
                     return throwError(err);
                 }),
