@@ -1,7 +1,7 @@
 
 .course {
     text-align: center;
-    max-width: 390px;
+    max-width: 690px;
     margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@
 
 
 .lessons-table {
-    min-height: 360px;
+    min-height: 260px;
     margin-top: 10px;
 }
 
@@ -68,4 +68,14 @@
 
 .lesson-detail {
   margin-top: 40px;
+}
+
+.full-width {
+    width: 60%;
+}
+
+.content-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
